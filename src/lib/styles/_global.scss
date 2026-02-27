@@ -1,0 +1,48 @@
+html {
+	width: 100%;
+}
+
+body {
+	font-family: var(--font-sans);
+	color: var(--color-base-content);
+	background-color: var(--color-base-100);
+
+	min-height: 100vh;
+	min-height: 100dvh;
+	min-width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	text-underline-offset: 2px;
+}
+
+.text-xs {
+	font-size: 0.75rem;
+	line-height: calc(1 / 0.75);
+}
+
+.text-sm {
+	font-size: 0.875rem;
+	line-height: calc(1.25 / 0.875);
+}
+
+.text-lg {
+	font-size: 1.125rem;
+	line-height: calc(1.75 / 1.125);
+}
+
+.text-muted {
+	color: var(--color-text-muted);
+}
+
+a.muted {
+	color: var(--color-text-muted);
+	text-decoration: underline;
+	text-underline-offset: 2px;
+
+	&:hover {
+		color: var(--color-info-85);
+	}
+}
