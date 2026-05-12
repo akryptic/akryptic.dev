@@ -7,6 +7,13 @@ export const LINKEDIN_URL = 'https://linkedin.com/in/akryptic';
 
 export const EXPERIENCES: Experience[] = [
 	{
+		organization: 'Ssessa',
+		role: 'Application Developer – (Intern)',
+		period: 'Mar 2026 - Present',
+		description:
+			'Developing full-stack applications using Next.js, TypeScript, and modern web technologies.'
+	},
+	{
 		organization: 'ISRAD Sports LLP',
 		role: 'Web Developer – Contract Project',
 		period: 'Oct 2025 - Jan 2026',
@@ -24,6 +31,12 @@ export const EXPERIENCES: Experience[] = [
 ];
 
 export const PROJECTS: Project[] = [
+	{
+		name: 'Terraria Like Game',
+		description:
+			'A 2D sandbox game inspired by Terraria, built in C++ using Raylib. This project serves as an ongoing exploration of game development.',
+		github: 'https://github.com/akryptic/TerrariaClone'
+	},
 	{
 		name: 'Battery Notifier',
 		description:

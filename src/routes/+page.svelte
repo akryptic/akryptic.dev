@@ -7,7 +7,7 @@
 	<title>Anil Kumar</title>
 </svelte:head>
 
-{#snippet Header()}
+{#snippet SiteHeader()}
 	<header class="header">
 		<a href="/"><h1 class="text-lg">Anil Kumar</h1></a>
 		<nav>
@@ -38,20 +38,18 @@
 	<article class="card">
 		<header>
 			<h3>{title}</h3>
-			{#if href || github}
-				<div class="links">
-					{#if href}
-						<a aria-label="External Link" class="muted" target="_blank" {href}>
-							<Link size={18} />
-						</a>
-					{/if}
-					{#if github}
-						<a aria-label="GitHub" class="muted" target="_blank" href={github}>
-							<Github size={18} /></a
-						>
-					{/if}
-				</div>
-			{/if}
+			<div class="links">
+				{#if href}
+					<a aria-label="External Link" class="muted" target="_blank" {href}>
+						<Link size={18} />
+					</a>
+				{/if}
+				{#if github}
+					<a aria-label="GitHub" class="muted" target="_blank" href={github}>
+						<Github size={18} /></a
+					>
+				{/if}
+			</div>
 		</header>
 
 		{#if organization}
@@ -67,7 +65,7 @@
 {/snippet}
 
 <div class="container">
-	{@render Header()}
+	{@render SiteHeader()}
 
 	<section class="intro">
 		<p>
@@ -200,6 +198,7 @@
 			width: 100%;
 
 			h3 {
+				margin: 0;
 				font-size: 1rem;
 				color: var(--color-base-content);
 			}
@@ -207,6 +206,7 @@
 			.links {
 				display: flex;
 				gap: 0.25rem;
+				height: 20px;
 			}
 		}
 
