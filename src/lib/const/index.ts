@@ -11,7 +11,8 @@ export const EXPERIENCES: Experience[] = [
 		role: 'Application Developer – (Intern)',
 		period: 'Mar 2026 - Present',
 		description:
-			'Developing full-stack applications using Next.js, TypeScript, and modern web technologies.'
+			'Developing full-stack applications using Next.js, TypeScript, and modern web technologies.',
+		href: 'https://ssessa.com'
 	},
 	{
 		organization: 'ISRAD Sports LLP',

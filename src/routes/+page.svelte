@@ -79,7 +79,7 @@
 			My journey started with tweaking <strong>Minecraft</strong> add-ons on mobile, which slowly
 			led me to C and the fundamentals of computing. From there, I explored widely —
 			<strong>Flutter, Kotlin, Android development, Unity, Godot</strong>, and even basic 2D
-			graphics with <strong>SDL2</strong>. I’ve always been fascinated by how software interacts
+			graphics with <strong>SDL2, Raylib and ImGui</strong>. I’ve always been fascinated by how software interacts
 			with hardware and users.
 		</p>
 		<br />
